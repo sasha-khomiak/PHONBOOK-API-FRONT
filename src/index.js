@@ -7,6 +7,7 @@ import { store, persistor } from './redux/store';
 import { BrowserRouter } from 'react-router-dom';
 import { PersistGate } from 'redux-persist/integration/react';
 
+// fdk
 // React.StrictMode - суворий режим написання коду
 // Provider - огортаємо весь наш додаток App, щоб мати доступ до store в будь-якому компоненті
 // PersistGate і persistor - для прогонки коду через мілдвер персістор для зберіщання в localstorage
