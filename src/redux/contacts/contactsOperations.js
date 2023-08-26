@@ -5,7 +5,7 @@ import axios from 'axios';
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
 // базовий урл для axios
-axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
+axios.defaults.baseURL = 'http://localhost:8000';
 
 // 1 на  axios отримання даних
 export const fetchContacts = createAsyncThunk(
